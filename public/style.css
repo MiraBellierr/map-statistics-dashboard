@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    width: 100%;
+    color: #fff;
+    background-color: #263238;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.container-content {
+    max-width: 50em;
+    padding: 0 1em;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 -.7em;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #78909c;
+    text-decoration: none;
+    padding: 0 .7em;
+}
+
+header a svg {
+    margin-right: .4em;
+}
+
+.map {
+    height: 50vh;
+    background: #081217;
+    width: 100%;
+    position: relative;
+}
+
+.tracker-stats {
+    border-top: 1px solid #263238;
+    border-bottom: 1px solid #263238;
+    color: #fff;
+    background: #081217;
+}
+
+.tracker-stats ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tracker-stat {
+    flex-grow: grow;
+    width: 33.333%;
+    font-size: 2.5em;
+    text-align: center;
+    padding: .4em 0 .5em;
+    border-right: 1px solid #263238;
+    border-top: 1px solid #263238;
+}
+
+.tracker-stat:nth-child(-n+3) {
+    border-top: 0;
+}
+
+.tracker-stat:first-child {
+    border-top: 0;
+}
+
+.tracker-stat p {
+    margin: .5em 0 0;
+}
+
+.tracker-stat p:first-child {
+    margin: 0;
+}
+
+.tracker-stat strong {
+    display: block;
+    font-size: .4em;
+    font-weight: 400;
+    color: #90a4ae;
+}
+
+.tracker-stat-secondary {
+    font-size: .5em;
+}
+
+.tracker-stat-secondary strong {
+    font-size: .6em;
+}
+
+.tracker-last-updated {
+    color: #546e7a;
+    font-size: .8em;
+    text-align: center;
+    padding: .6em 0;
+    background: #081217;
+}
+
+.tracker-last-updated p {
+    margin: 0;
+}
