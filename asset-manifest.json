@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/map-statistics-dashboard/static/js/main.ec75db36.js",
+    "index.html": "/map-statistics-dashboard/index.html",
+    "main.ec75db36.js.map": "/map-statistics-dashboard/static/js/main.ec75db36.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ec75db36.js"
+  ]
+}
